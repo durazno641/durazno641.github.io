@@ -1,0 +1,391 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh !important;
+    font-family: 'Noto Sans', 'Sans-serif';
+    color: black;
+ 
+}
+.btn-rojo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color:#50BA8E;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+
+}
+/* secciones*/
+/*seccion1*/
+
+#seccion1Contenido{
+  
+    background: url(./recursos/ezgif-2-3348adc0f9d6.gif) no-repeat center/cover;
+    background-position: top center;
+    background-size: 20%;
+    height :40VH;
+    
+
+    color:#21515c;
+
+
+
+}
+
+body > hr {
+    width: 70rem;
+border-color:#21b387; 
+margin-left: 1;
+margin-bottom: rem;
+}
+
+
+
+#seccion3 > hr {
+    width: 10rem;
+border-color:#21b387; 
+margin-left: 1;
+margin-bottom: 3rem;
+}
+
+#seccion1{
+    background-color:#ffffff;
+}
+
+
+
+#barra{
+
+
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    background-color:#bce0d0;
+    
+    
+    
+}
+
+#logo{
+
+
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+float:left;
+
+
+}
+
+nav>a{
+    
+text-decoration: none;
+color:#21515c;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+nav > a:hover{
+   
+    color:#58b75c;
+
+    
+ }
+
+
+    #seccion1Contenido >p{
+        
+
+        position: absolute;left: 20%;
+        position: absolute;top: 34%;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;     
+        font-size: 2.5rem;
+       
+
+    
+        }
+
+      
+            
+        #seccion1Contenido >a{
+ 
+            
+            position: absolute;left: 42%;
+            position: absolute;top: 35%;
+          
+        
+            }
+          
+        #seccion1Contenido >hr{
+        
+            width: 10rem;
+            border-color:#21b387; 
+          
+        
+         }
+            #seccion1Contenido>h1{
+        
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              text-transform: uppercase;
+              font-size: 4rem;
+              font-weight: 700;
+              margin-bottom: 2.5rem;
+              
+            
+                }
+                /* --------------seccion2 ------------------------
+                #seccion2
+                {
+                    background-color: #f4f5f9;
+                    min-height: 10rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 3rem;
+
+
+
+                } */
+
+                /*--------------seccion3 ------------------------*/
+                #seccion3{
+
+
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                    margin-bottom: 20px;
+ 
+                    
+                }
+                #subtitulo1
+                {
+
+                    margin-bottom: 2rem;
+
+                }
+
+                #seccion3 > h2 {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 2.5rem;
+                    font-weight: 700;
+
+                }
+                #seccion3 > hr {
+                    width: 10rem;
+                border-color:#21b387; 
+                margin-left: 1;
+                margin-bottom: 3rem;
+                }
+                #contenedor3{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: row;
+                    
+                }
+                .imagenesOrnamentales{
+                    padding-right: 1rem;
+                    padding-left: -10rem;
+                    
+
+                }
+                .imagenesOrnamentales > h6 {
+                    text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+
+                }
+
+                #imagenesOrnamentales >p{
+                   
+                    margin-bottom: 2rem;
+
+                }
+                .imagenesOrnamentales >img{
+                    width:400px;
+                    height:450px;
+                    margin-bottom:-3rem;
+                    
+
+                }
+                
+                /*--------------seccion 4 ------------------------*/
+                #seccion4{
+                    background: linear-gradient(rgba(69, 90, 69, 0.7),rgba(104, 134, 104, 0.7)),url(./recursos/imagenes/medicinales.jpg) no-repeat center/cover;
+                    background-attachment: fixed;
+                    height: 100vh;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+
+
+
+                }
+                #contener2{
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: row;
+
+                }
+               
+                #derecha > p{
+
+                    font-size: 1.3rem;
+                    margin-bottom: 4rem;
+                }
+                #derecha > h3{
+
+                    text-transform: uppercase;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                    margin-bottom: 1.5rem;
+                }
+                
+
+             /*--------------seccion 5 ------------------------*/
+
+             #seccion5{
+                 width: 80%;
+                 margin: auto;
+                 display: flex;
+                 flex-direction: row;
+                 align-items: center;
+                 padding-top: 5rem;
+                 padding-bottom: 5rem;
+             }
+   
+             
+             
+#dere{
+  flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-items: center;
+    align-items: center ;
+}
+
+
+      
+    
+
+   
+    #dere{
+        margin-left:-7rem;
+      margin-bottom: 4rem;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    #derecha5{
+        width: 60%;
+        
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+   
+    #derecha5> figure{
+        
+        position: relative;
+        
+       object-fit: cover;
+       
+        height: 250px;
+        width: 330px;
+        display: flex;
+        overflow:hidden;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+       
+        
+    }
+ #derecha5 >figure >img{
+        
+    height: auto;
+    width: auto;
+    max-height: height 250px; 
+    max-width: width 300px ;
+    transition: all 500ms ease-in-out;
+   
+    
+}    
+    #derecha5> figure .capa{
+        position: absolute;
+        top:0;
+        height: 100%;
+        width: 100%;
+        background: rgba(110, 145, 142, 0.459);
+      
+
+        transition: all 500ms ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+        
+    } 
+    
+
+
+#derecha5> figure:hover >.capa {
+   
+    opacity: 1;
+    visibility: visible;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    
+} 
+#derecha5> figure:hover >.capa >h3 {
+   
+    margin-left: center;
+    margin-top:6rem;
+	
+    
+} 
+
+footer{
+    background-color: rgb(11, 91, 102);
+    color: white;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+    }
+    footer>h4{
+        
+        margin-top: -0rem;
+
+        }
+    
+        footer>h3{
+        
+            margin-top: -0rem;
+    
+            }
